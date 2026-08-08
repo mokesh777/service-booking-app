@@ -1,29 +1,42 @@
-# Welcome to your Lovable project
+# Service Booking App
 
-This project was built with [Lovable](https://lovable.dev).
+A responsive service booking web application built with React, TypeScript, and Redux. Users can register, log in, browse available services, book services, and view their bookings.
 
-## Build with Lovable
+## Features
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+- User Registration
+- User Login
+- Client-side credential validation
+- Service listing
+- Service booking
+- My Bookings summary
+- Form validation
+- Redux state management
+- Responsive UI
+- Client-side storage
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## Tech Stack
 
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
-
-## Built with
-
-- TanStack Start
+- React.js
 - TypeScript
-- React
-- Tailwind CSS
+- Redux
+- Vite
+- CSS
+- JavaScript
+- Local Storage
+
+## Project Structure
+
+```text
+service-booking-app/
+├── public/
+├── src/
+│   ├── routes/
+│   ├── components/
+│   ├── server.ts
+│   ├── start.ts
+│   └── styles.css
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
